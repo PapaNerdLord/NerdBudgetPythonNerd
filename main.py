@@ -1,7 +1,6 @@
 def payday_function():
     #get payday info from user
-    print("Hello, Please Enter Payday Amount:")
-    paydayA = input()
+    paydayA = input("Hello, Please Enter Payday Amount: ")
     print("Payday Ammount is: " + paydayA)
     
     #convert paydayA to int so you can use it with other ints later
