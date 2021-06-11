@@ -17,7 +17,7 @@ def payday_function():
 
 payday_function()
 
-def newbills_fuctions
+def newbills_fuctions():
 
 #Print User Input to A File
 #Inputs of Name,Cost,Due day to be write down and pulled back up from file and to be read in another fuction ytbn
