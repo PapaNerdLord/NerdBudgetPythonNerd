@@ -27,9 +27,14 @@ nbill = input("Name: ")
 cbill = input("Cost: ")
 dbill = input("Day of Month: ")
 y = open('C:\Users\USERNAME\Documents\Bills.txt', 'w')
+#I want to write more then one thing but being able to recall them back as independent variables
 y.write(nbill)
 
 #Convert text to binary and then write to file
-nbill = input("Enter blah : ")
+#Guess this has to exist i dont know i was skimming and reading bits and piecees
+nbill = input("Name: ")
+cbill = input("Cost: ")
+dbill = input("Day of Month: ")
 y = open('C:\Users\USERNAME\Documents\Bills.txt', 'wb')
+#I want to write more then one thing but being able to recall them back as independent variables
 y.write(nbill)
