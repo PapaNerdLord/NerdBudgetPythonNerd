@@ -12,7 +12,27 @@ def payday_function():
         print("Save this much: " + str(save_amount))
     elif paydayA >= 401 and paydayA <= 500:
         save_amount = (1/16) * paydayA
+        print("Save this much: " + str(save_amount))
+    elif paydayA >= 501 and paydayA <= 600:
+        save_amount = (1/14) * paydayA
         print("Save this much: " + str(save_amount))    
-
+    elif paydayA >= 601 and paydayA <= 700:
+        save_amount = (1/13) * paydayA
+        print("Save this much: " + str(save_amount))
+    elif paydayA >= 701 and paydayA <= 800:
+        save_amount = (1/12) * paydayA
+        print("Save this much: " + str(save_amount))  
+    elif paydayA >= 801 and paydayA <= 900:
+        save_amount = (1/10) * paydayA
+        print("Save this much: " + str(save_amount)) 
+    elif paydayA >= 901 and paydayA <= 1000:
+        save_amount = (1/8) * paydayA
+        print("Save this much: " + str(save_amount)) 
+    elif paydayA >= 1001 and paydayA <= 1100:
+        save_amount = (1/7) * paydayA
+        print("Save this much: " + str(save_amount))             
+    elif paydayA >= 1101:
+        save_amount = (1/7) * paydayA
+        print("Save this much: " + str(save_amount))    
 payday_function()
 
