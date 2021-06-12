@@ -23,9 +23,9 @@ def newbills_fuctions():
 #In console to save the cbill amount in total with other bills that I got going.
 #My pay day is the 5th and 20th of every month, so if my bills fall after one of those days
 #Take all cbills that are due by checking dbill, but not after the other day. Just in their paid periods
-nbill = input("Name: ")
-cbill = input("Cost: ")
-dbill = input("Day of Month: ")
+    nbill = input("Name: ")
+    cbill = input("Cost: ")
+    dbill = input("Day of Month: ")
 y = open('C:\Users\USERNAME\Documents\Bills.txt', 'w')
 #I want to write more then one thing but being able to recall them back as independent variables
 y.write(nbill)
@@ -38,3 +38,5 @@ dbill = input("Day of Month: ")
 y = open('C:\Users\USERNAME\Documents\Bills.txt', 'wb')
 #I want to write more then one thing but being able to recall them back as independent variables
 y.write(nbill)
+
+newbills_fuctions()
