@@ -4,7 +4,7 @@ def payday_function():
     print("Payday Ammount is: " + paydayA)
     
     #convert paydayA to int so you can use it with other ints later
-    paydayA = int(paydayA)
+    paydayA = float(paydayA)
     
     #depending on what you make the more you can save.
     if  paydayA >= 300 and paydayA <= 400:
@@ -34,5 +34,17 @@ def payday_function():
     elif paydayA >= 1101:
         save_amount = (1/7) * paydayA
         print("Save this much: " + str(save_amount))    
+
+    
 payday_function()
 
+#trying to make a menu bar to go in between the functionalities and what not.
+def  mainmenu_fuction():
+    menu = ["Payday","Options","Exit"]
+    mainmenu = input('Main menu? y/n: ')
+        mainmenu = str(mainmenu)
+        if mainmenu = str("y","Y"):
+            print("Main Menu")
+            print(me)
+
+mainmenu_fuction()
